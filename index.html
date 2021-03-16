@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social Media Dashboard With Theme Switcher</title>
+
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+      <div class="header">
+    <div class="col-left">
+      <h1>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+    </div>
+    <div class="col-right">
+      <span class="mode-text">Light Mode</span>
+      <label class="switch">
+        <input type="checkbox" id="toggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+
+  <section class="dashboard">
+    <div class="box facebook">
+      <div class="username">
+        <img src="./images/icon-facebook.svg" alt="">
+        @webcoderspeed</div>
+      <div class="followers">
+        <h1>1987</h1>
+        <h2>Followers</h2>
+      </div>
+      <div class="gained-follwers">
+        <img src="./images/icon-up.svg" alt="">
+        12 Today
+      </div>
+    </div>
+    <div class="box twitter">
+      <div class="username">
+        <img src="./images/icon-twitter.svg" alt="">
+        @webcoderspeed</div>
+      <div class="followers">
+        <h1>1044</h1>
+        <h2>Followers</h2>
+      </div>
+      <div class="gained-follwers">
+        <img src="./images/icon-up.svg" alt="">
+        99 Today
+      </div>
+    </div>
+    <div class="box instagram">
+      <div class="username">
+        <img src="./images/icon-instagram.svg" alt="">
+        @webcoderspeed</div>
+      <div class="followers">
+        <h1>11k</h1>
+        <h2>Followers</h2>
+      </div>
+      <div class="gained-follwers">
+        <img src="./images/icon-up.svg" alt="">
+        1099 Today
+      </div>
+    </div>
+    <div class="box youtube">
+      <div class="username">
+        <img src="./images/icon-youtube.svg" alt="">
+        webcoderspeed</div>
+      <div class="followers">
+        <h1>8239</h1>
+        <h2>Subscribers</h2>
+      </div>
+      <div class="lossed-subscriber">
+        <img src="./images/icon-down.svg" alt="">
+        144 Today
+      </div>
+    </div>
+  </section>
+
+  <section class="overview">
+    <h2>Overview - Today</h2>
+    <div class="overview-wrapper">
+      <div class="card">
+        <div class="card-heading">
+          <p>Page Views</p>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">87</h3>
+          <div class="gained-views">
+            <img src="./images/icon-up.svg" alt="">
+            <p>3%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Likes</p>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">52</h3>
+          <div class="gained-views">
+            <img src="./images/icon-down.svg" alt="">
+            <p class="fb-likes">3%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Likes</p>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">5462</h3>
+          <div class="gained-views">
+            <img src="./images/icon-up.svg" alt="">
+            <p>2257%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Profile Views</p>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">52K</h3>
+          <div class="gained-views">
+            <img src="./images/icon-up.svg" alt="">
+            <p>1375%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Retweets</p>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">117</h3>
+          <div class="gained-views">
+            <img src="./images/icon-up.svg" alt="">
+            <p>3%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Likes</p>
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">507</h3>
+          <div class="gained-views">
+            <img src="./images/icon-up.svg" alt="">
+            <p>553%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Likes</p>
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">107</h3>
+          <div class="gained-views">
+            <img src="./images/icon-down.svg" alt="">
+            <p class="youtube-likes">10%</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+         <div class="card-heading">
+          <p>Total Views</p>
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="card-footer">
+          <h3 class="views">1407</h3>
+          <div class="gained-views">
+            <img src="./images/icon-down.svg" alt="">
+            <p class="youtube-views">12%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  <script>
+    const body = document.body;
+    const toggle = document.getElementById('toggle');
+    const header = document.querySelector('.header');
+    const dashboard = document.querySelector('.dashboard');
+    const overview = document.querySelector('.overview');
+    const modeText = document.querySelector('.mode-text');
+
+
+
+  toggle.addEventListener('input', e => {
+    const isChecked = e.target.checked;
+
+    if (isChecked) {
+        body.classList.add('body-light-theme');
+        header.classList.add('header-light-theme');
+        dashboard.classList.add('dashboard-light-theme');
+        overview.classList.add('overview-light-theme');
+        modeText.textContent = 'Dark Mode';
+    } else {
+        body.classList.remove('body-light-theme');
+        header.classList.remove('header-light-theme');
+        dashboard.classList.remove('dashboard-light-theme');
+        overview.classList.remove('overview-light-theme');
+        modeText.textContent = 'Light Mode';
+    }
+});
+  </script>
+</body>
+</html>
